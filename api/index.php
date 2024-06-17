@@ -49,7 +49,7 @@
     echo '<table>';
 
     foreach ($rowset->Row as $row_number) {
-      echo '<tr><td>' . $row_number[0]->Column1 . ' </td><td>' . $row_number[0]->Column2 . '</td><td>' . $row_number[0]->Column3 . ' </td><td>' . $row_number[0]->Column4 . ' </td><td>' . $row_number[0]->Column5 . ' </td><td>' . $row_number[0]->Column6 . ' </td><td>' . $row_number[0]->Column7 . ' </td><td>' . $row_number[0]->Column8 . ' </td><td>' . $row_number[0]->Column9 . ' </td><td>' . $row_number[0]->Column10 . ' </td><td>' . $row_number[0]->Column11 . ' </td><td>' . $row_number[0]->Column12 . ' </td></tr>';
+      echo '<tr><td>' . $row_number[0]->Column3 . ' </td><td>' . $row_number[0]->Column2 . '</td><td>' . $row_number[0]->Column5 . ' </td><td>' . $row_number[0]->Column1 . ' </td><td>' . $row_number[0]->Column11 . ' </td><td>' . $row_number[0]->Column6 . ' </td><td>' . $row_number[0]->Column7 . ' </td><td>' . $row_number[0]->Column8 . ' </td><td>' . $row_number[0]->Column9 . ' </td><td>' . $row_number[0]->Column10 . ' </td><td>' . $row_number[0]->Column4 . ' </td><td>' . $row_number[0]->Column12 . ' </td></tr>';
     }
     echo '</table>';
 
