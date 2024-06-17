@@ -12,7 +12,7 @@
 
     $ch = curl_init();
     $url = 'https://api-eu.hosted.exlibrisgroup.com/almaws/v1/analytics/reports';
-    $queryParams = '?' . urlencode('path') . '=' . urlencode('/Shared Folders/Universidad Continental 51UCCI_INST/Reports/TSI/5. Power BI/1. Registros') . '&' . urlencode('limit') . '=' . urlencode('1000') . '&' . urlencode('apikey') . '=' . urlencode('l8xx3de7899a5e1e42fa94a78cc91f8305b1');
+    $queryParams = '?' . urlencode('path') . '=' . urlencode('/shared/Universidad Continental 51UCCI_INST/Reports/TSI/5. Power BI/1. Registros') . '&' . urlencode('limit') . '=' . urlencode('1000') . '&' . urlencode('apikey') . '=' . urlencode('l8xx3de7899a5e1e42fa94a78cc91f8305b1');
 
     curl_setopt($ch, CURLOPT_URL, $url . $queryParams);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
